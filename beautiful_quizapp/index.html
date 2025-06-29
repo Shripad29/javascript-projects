@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="start-screen" class="active">
+            <h1>Welcome to the Quiz!</h1>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+        <div id="quiz-screen">
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <div id="question-area">
+                <h2 id="question-text"></h2>
+                <div id="answer-buttons" class="btn-grid"></div>
+            </div>
+        </div>
+        <div id="result-screen">
+            <h2>Your Score:</h2>
+            <p id="score"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    text-align: center;
+    margin: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.meme_container{
+    margin-top: 16px;
+    max-width: 450px;
+    margin-inline: auto;
+    box-shadow: 4px 6px 17px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button{
+    border: none;
+    font: inherit;
+    padding: 12px 16px;
+    background-color: rgb(121, 100, 235);
+    color: white;
+    border-radius: 8px;
+    max-width: 440px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(80, 66, 161);
+}
+.meme_title{
+    margin: 0;
+    font-size: 24px;
+ 
+}
+
+.author{
+    margin-bottom: 0;
+    font-size: 12px;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+}
