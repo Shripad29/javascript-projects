@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    background-color: rgb(68, 68, 68);
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.container h2{
+ color: #FFFB7D;
+}
+.textarea{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px darkgray;
+}
+
+.counter_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.counter_container p {
+    font-size: 18px;
+    color: rgb(216, 216, 216);
+}
+
+
+.total_counter{
+    color: rgb(100, 100, 235);
+}
+
+.remaining_counter{
+    color:rgb(250, 80, 114);
+}
