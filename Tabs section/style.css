@@ -70,3 +70,16 @@ img {
     gap: 2rem;
   }
 }
+
+
+.content{
+  display: none;
+}
+
+.content.live{
+  display: block;
+}
+
+.button.live{
+  background-color: #00adb5 ;
+}
