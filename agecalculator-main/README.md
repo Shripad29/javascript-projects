@@ -30,15 +30,6 @@ This app allows users to enter their birth date and instantly calculates their a
 3. The app will display your current age in years below the button.  
 4. If no date is selected, it shows an alert asking you to enter a valid date.
 
----
 
-
-
-## 🧑‍💻 Example Output
-If your birthday is **1995-10-07**, and today is **2025-10-07**,  
-the app will show:  
-> **Your age is 30 years old**
-
----
 
 
