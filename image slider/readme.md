@@ -28,12 +28,6 @@ It demonstrates smooth UI transitions, interactive controls, and dynamic behavio
 
 ---
 
-## 📸 Preview
-
-> Add a screenshot of your project here and name it `preview.png`
-
----
-
 ## ⚙️ How It Works
 
 1. Images are arranged horizontally inside a container.  
